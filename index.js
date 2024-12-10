@@ -12,10 +12,10 @@ const port = 4001;
 const public = path.join(__dirname, "./public");
 app.use(express.static(public));
 
-app.set('view engine', 'hbs');
+// app.set('view engine', 'html');
 
 app.get('/', (req, res) => {
-    res.render("index");
+    res.render("index.html");
 });
 
 const onlineUsers = {};
