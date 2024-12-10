@@ -1,4 +1,4 @@
-const socket = io("https://real-time-chat-oehuobehu-hisham-cses-projects.vercel.app/");
+const socket = io();
 
 var userInput;
 var microphoneState = document.getElementById('microphone-state');
